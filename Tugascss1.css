@@ -1,0 +1,57 @@
+body {
+    
+    background-color: white;
+    background-image: url(wutheringwaves_galley1698157275057.jpg);
+    
+}
+
+#judul {
+    color: black;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+h1  {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+p   {
+    font-family: arial;
+    font-size: 25px;
+    align-items: center;
+}
+
+marquee {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    align-items: center;
+}
+
+.gambar {
+    display: flex;
+    place-content: center;
+    grid-template-columns: 3fr 0fr; /* Dua kolom dengan ukuran yang sama */
+    gap: 10px; /* jarak antara gambar */
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+
